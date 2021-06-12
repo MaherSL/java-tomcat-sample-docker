@@ -15,7 +15,7 @@ pipeline {
 
         stage('Create Tomcat Docker Image'){
             steps {
-                bat 'docker build . -t tomcatsamplewebapp2'
+                bat 'docker build . -t tomcatsamplewebapp'
             }
         }
 
